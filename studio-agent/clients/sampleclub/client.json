@@ -1,0 +1,16 @@
+{
+  "name": "Example Pickleball Club",
+  "business_id": "5680352f-4728-5ed8-8a9a-4686588e39d1",
+  "greeting": "Hi, I'm Sophia, the AI receptionist for Example Pickleball Club, a fictional demonstration business. How can I help?",
+  "voice": "REPLACE_WITH_YOUR_VOICE_ID",
+  "timezone": "America/New_York",
+  "services": [
+    "court_rental",
+    "lesson",
+    "membership",
+    "open_play",
+    "private_event",
+    "general_inquiry"
+  ],
+  "style": "friendly_upbeat"
+}

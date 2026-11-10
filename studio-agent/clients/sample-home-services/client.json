@@ -1,0 +1,12 @@
+{
+  "name": "Example Home Services",
+  "business_id": "aaaaaaaa-0000-4000-8000-000000000201",
+  "greeting": "Hi, I'm Sophia, the AI receptionist for Example Home Services, a fictional demonstration business. How can I help?",
+  "voice": "REPLACE_WITH_YOUR_VOICE_ID",
+  "timezone": "America/New_York",
+  "services": [
+    "water_damage",
+    "drain_service",
+    "general_inquiry"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Example Studios",
+  "business_id": "d00c0c1d-7687-5992-bfbd-b69a214c566e",
+  "greeting": "Hi, I'm Sophia, the AI receptionist for Example Studios, a fictional demonstration business. How can I help?",
+  "voice": "REPLACE_WITH_YOUR_VOICE_ID",
+  "timezone": "America/New_York",
+  "services": [
+    "recording",
+    "music_rental",
+    "mixing",
+    "mastering",
+    "photo_rental",
+    "photoshoot",
+    "recording_light_mix"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node unit.test.mjs && TZ=America/New_York node --test date-filter.test.mjs trash.test.mjs action-controls.test.mjs bulk-selection.test.mjs calls.test.mjs account.test.mjs settings.test.mjs session-api.test.mjs http.test.mjs settings-ui.test.mjs",
+    "db": "node db/run.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.3.0"
+  }
+}

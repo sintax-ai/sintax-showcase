@@ -1,0 +1,33 @@
+name: Local regression checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  portal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      - run: npm ci
+        working-directory: client-portal/tests
+      - run: npm test && npm run db
+        working-directory: client-portal/tests
+      - run: python -m unittest discover -s client-portal/tests/mock -p 'test_*.py'
+  agent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - run: uv sync --locked --python 3.14
+        working-directory: studio-agent
+      - run: uv run --locked pytest
+        working-directory: studio-agent

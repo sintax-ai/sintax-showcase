@@ -1,0 +1,23 @@
+{
+  "friendly_upbeat": {
+    "demo_instructions": "Use friendly, everyday wording and concise questions. Be welcoming without sales hype or excessive enthusiasm.",
+    "expressive": {
+      "speech_steering": {"pace": "normal", "disfluencies": false, "nonverbal_sounds": false},
+      "tts_instructions_append": "Use a warm, lightly upbeat delivery. Keep expression restrained; do not shout or sound theatrical."
+    }
+  },
+  "calm_reassuring": {
+    "demo_instructions": "Use patient, considerate wording. Acknowledge concerns briefly, avoid cheerful stock phrases, and ask one clear question at a time.",
+    "expressive": {
+      "speech_steering": {"pace": "slow", "disfluencies": false, "nonverbal_sounds": false},
+      "tts_instructions_append": "Use a calm, steady, reassuring delivery. Avoid excitement, exaggerated emotion, or a sing-song delivery."
+    }
+  },
+  "professional_concise": {
+    "demo_instructions": "Use polite, direct wording. Keep explanations concise, avoid slang, and focus on the caller's request.",
+    "expressive": {
+      "speech_steering": {"pace": "normal", "disfluencies": false, "nonverbal_sounds": false},
+      "tts_instructions_append": "Use a composed, clear, professional delivery with restrained emotion."
+    }
+  }
+}
